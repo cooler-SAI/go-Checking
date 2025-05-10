@@ -19,6 +19,8 @@ func ZerologInit() {
 func main() {
 	ZerologInit()
 
+	log.Info().Msg("Program Started!")
+
 	for {
 		log.Info().Msg("Checking...")
 
